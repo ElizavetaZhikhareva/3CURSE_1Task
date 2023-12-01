@@ -1,0 +1,4 @@
+// Интерфейс инструмента
+interface Tool {
+    void draw();
+}
