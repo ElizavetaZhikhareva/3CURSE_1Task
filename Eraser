@@ -1,0 +1,7 @@
+// Реализация ластика
+class Eraser implements Tool {
+    @Override
+    public void draw() {
+        System.out.println("Используем ластик");
+    }
+}
