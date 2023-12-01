@@ -1,0 +1,7 @@
+// Реализация кисти
+class Brush implements Tool {
+    @Override
+    public void draw() {
+        System.out.println("Рисуем кистью");
+    }
+}
