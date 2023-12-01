@@ -1,0 +1,15 @@
+// Фабрика инструментов
+class ToolFactory {
+    public static Tool getTool(String toolType) {
+        switch (toolType) {
+            case "карандаш":
+                return new Pencil();
+            case "кисть":
+                return new Brush();
+            case "ластик":
+                return new Eraser();
+            default:
+                return null;
+        }
+    }
+}
